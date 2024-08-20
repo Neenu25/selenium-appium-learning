@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="tests.LINEapp"/>
+      <class name="tests.Cancel_Logout"/>
+      <class name="tests.RedirectionTest"/>
+      <class name="tests.Login"/>
+      <class name="tests.Registration"/>
+      <class name="tests.Logout"/>
+      <class name="tests.all"/>
+      <class name="tests.CancelAccountDeletion"/>
+      <class name="tests.Collection"/>
+      <class name="tests.Delete_Collection"/>
+      <class name="tests.AccountDeletion"/>
+      <class name="tests.Lottery"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
